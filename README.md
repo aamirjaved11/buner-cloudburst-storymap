@@ -18,6 +18,6 @@ An interactive scrollytelling web map documenting the August 2025 Buner cloudbur
 NDMA, PDMA Khyber Pakhtunkhwa, Al Jazeera, Dawn, NPR, and Reuters reporting on the August 2025 Pakistan floods.
 
 
-
+🔗 [Live Demo](https://aamirjaved11.github.io/buner-cloudburst-storymap/)
 ## Author
 AAMIR JAVED
