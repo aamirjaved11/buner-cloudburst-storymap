@@ -17,8 +17,7 @@ An interactive scrollytelling web map documenting the August 2025 Buner cloudbur
 ## Data Sources
 NDMA, PDMA Khyber Pakhtunkhwa, Al Jazeera, Dawn, NPR, and Reuters reporting on the August 2025 Pakistan floods.
 
-## Live Demo
-[Add link after deployment]
+
 
 ## Author
-[Your name] — [portfolio/LinkedIn link]
+AAMIR JAVED
