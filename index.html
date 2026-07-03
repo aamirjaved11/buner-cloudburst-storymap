@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>48 Hours: Mapping Pakistan's Deadliest Cloudburst</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="progress-bar"></div>
+
+  <header id="intro">
+    <div id="intro-map"></div>
+    <h1>48 Hours</h1>
+    <h2>Mapping Pakistan's Deadliest Cloudburst</h2>
+    <p class="subtitle">The August 2025 Buner flash floods — how a single hour of rain changed everything</p>
+    <p class="scroll-hint">↓ Scroll to begin the story</p>
+  </header>
+
+  <div id="story-container">
+    <div id="map"></div>
+
+    <div id="hospital-sidebar">
+      <h4>🏥 Nearest Hospitals</h4>
+      <ul id="hospital-list"></ul>
+    </div>
+
+    <div id="text-panel"></div>
+  </div>
+
+  <div id="end-cta">
+    <p>You've reached the end of the story.</p>
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑ Back to the Beginning</button>
+  </div>
+
+  <footer id="footer">
+    <p>Data compiled from NDMA, PDMA (KP), Al Jazeera, Dawn, NPR, and Reuters reporting on the August 2025 floods.</p>
+    <p>Built by [Your Name] — a web GIS portfolio project</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
